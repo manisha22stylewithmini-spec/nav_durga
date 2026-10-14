@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nav Durga – जय माता दी</title>
+<meta name="description" content="Nine forms of Maa Durga, one scroll at a time. Jai Mata Di.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="track"></div>
+
+<div id="stage" aria-live="polite">
+  <div id="scenes"></div>
+  <div class="shade"></div>
+
+  <header class="bar">
+    <span class="mark hindi">नव दुर्गा</span>
+    <span class="tools">
+      <button id="sound" class="icon" aria-pressed="false" aria-label="Toggle music">♪ <span>off</span></button>
+      <button id="share" class="icon" aria-label="Share this Devi">↗ <span>share</span></button>
+    </span>
+  </header>
+
+  <nav id="rail" aria-label="Nine Durgas"></nav>
+
+  <section class="copy hero" id="heroCopy">
+    <p class="small hindi">माँ के चरणों में समर्पित</p>
+    <h1 class="hindi">नव दुर्गा</h1>
+    <p class="line">Nine forms of the Mother. Scroll slowly.</p>
+    <button id="enter" class="cta">Enter Darshan</button>
+  </section>
+
+  <div id="deviCopy"></div>
+
+  <section class="copy end" id="endCopy">
+    <h2 class="hindi">जय माता दी</h2>
+    <p class="line">या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता<br>नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः</p>
+  </section>
+</div>
+<div id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
